@@ -1,0 +1,45 @@
+@import 'variables';
+
+
+// #region Font colors
+
+.G-white { color : $white } 
+.G-dark-gray { color : $dark-gray }
+.G-light-gray { color : $light-gray }
+.G-gray { color : $gray }
+.G-dark-pink { color : $dark-pink }
+.G-black { color : $black }
+.G-light-black  { color : $light-black  }
+.G-light { color : $light }
+.G-green { color : $green }
+.G-light-green { color : $light-green }
+.G-red { color : $red }
+.G-light-red { color : $light-red }
+.G-yellow { color : $yellow }
+.G-light-yellow { color : $light-yellow }
+.G-orange { color : $orange }
+.G-blue { color : $blue }
+.G-facebook { color :$facebook; }
+.G-linkedin { color :$linkedin; }
+.G-twitter { color :$twitter; }
+.G-shadow { box-shadow : $shadow }
+
+// #endregion
+
+// #region Background colors
+
+.G-back-black { background-color : $black } 
+.G-back-red { background-color : $red } 
+.G-back-green { background-color : $green }
+.G-back-yellow { background-color : $yellow }
+.G-back-dark-gray { background-color : $dark-gray }
+.G-back-dark-pink { background-color : $dark-pink }
+.G-back-gray { background-color : $gray }
+.G-back-light-gray { background-color : $light-gray }
+.G-back-blue { background-color : $blue }
+.G-back-light { background-color : $light }
+.G-back-pink { background-color : $pink; }
+.G-back-white { background-color : $white; }
+.G-back-modal { background-color : $modal-light-blure; }
+
+// #endregion

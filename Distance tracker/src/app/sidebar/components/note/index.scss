@@ -1,0 +1,35 @@
+.P-note {
+    background-color: white;
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &:hover {
+        .P-delete {
+            display: block;
+            position: absolute;
+            right: 10px;
+        }
+    }
+
+    .P-delete {
+        color: #EC174F;
+        font-weight: bold;
+        display: none;
+    }
+
+    .P-weekday {
+        font-size: 12px;
+        color: rgba(28, 32, 37, 0.4);
+    }
+
+    .P-left {
+        width: 40%;
+    }
+
+    .P-right {
+        width: 60%;
+    }
+}

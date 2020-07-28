@@ -1,0 +1,44 @@
+@import 'variables';
+
+
+.G-btn {
+    padding         : 10px 45px;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    position        : relative;
+}
+
+.G-prime-btn {
+    padding         : 15px 45px;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    position        : relative;
+    color           : $white;
+    background      : $green;
+    border-radius: $btn-radius;
+}
+
+.G-white-btn {
+    color           : $black;
+    background      : $white;
+    border          : 1px solid $black;
+    box-shadow      : $btn-shadow;
+}
+
+.G-btn-transparent{
+    border: none;
+    background: transparent;
+    color: black    ;
+}
+
+.G-dark-pink-btn {
+    color           : $white;
+    background      : $dark-pink;
+    box-shadow      : $btn-shadow;
+
+    &:hover {
+        color: $white;
+    }
+}

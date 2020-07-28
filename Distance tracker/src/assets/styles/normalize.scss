@@ -1,0 +1,148 @@
+/* You can add HTML default tag styles */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  color: $black;
+  box-sizing: border-box;
+  outline: 0;
+  scrollbar-width: thin;
+}
+
+p,
+a {
+  font-family: PT Sans Caption !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+textarea,
+input,
+button,
+pre {
+  font-size: 16px !important;
+  outline: none !important;
+}
+
+input {
+  height: $input-height;
+  border: 1px solid $light-gray;
+  text-indent: 10px;
+  background-color: transparent;
+  color: $black;
+}
+
+textarea {
+  width: 100%;
+  height : calc(#{$input-height} + 10px);
+  max-height: 400px;
+  min-height : calc(#{$input-height} + 40px);
+  padding: 10px;
+  text-indent: 0;
+  resize: vertical;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  margin: 0;
+  appearance: none;
+}
+
+input[type=file] {
+  display: none;
+}
+
+i[class*=icon] {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+
+a,
+button,
+label {
+  cursor: pointer;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+a,
+p {
+  font-size: 16px;
+}
+
+*::-webkit-scrollbar-track,
+*::-ms-autohiding-scrollbar {
+  border-radius: 2px;
+  background-color: #1C2025;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #1C2025;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #EC174F;
+
+  scrollbar-width: thin !important;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}

@@ -1,0 +1,104 @@
+@import "variables.scss";
+
+.notification-default {
+  background-color: $default !important;
+  border-left: 12px solid $default_dark !important;
+
+  .timer {
+    background-color: $default_timer !important;
+  }
+
+  .timer-filler {
+    background-color: $default_timer_filler !important;
+  }
+
+  .notification-close {
+    background-color: $default !important;
+  }
+}
+
+.notification-success {
+  border-left: 12px solid $success_dark !important;
+  background-color: white !important;
+  color: black;
+
+  .timer {
+    background-color: $success_timer !important;
+  }
+
+  .timer-filler {
+    background-color: $success_timer_filler !important;
+  }
+
+  .notification-close {
+    background-color: $success !important;
+  }
+}
+
+.notification-danger {
+  background-color: white !important;
+  border-left: 12px solid $danger_dark !important;
+
+  .timer {
+    background-color: $danger_timer !important;
+  }
+
+  .timer-filler {
+    background-color: $danger_timer_filler !important;
+  }
+
+  .notification-close {
+    background-color: $danger !important;
+  }
+}
+
+.notification-info {
+  background-color: $info !important;
+  border-left: 12px solid $info_dark !important;
+
+  .timer {
+    background-color: $info_timer !important;
+  }
+
+  .timer-filler {
+    background-color: $info_timer_filler !important;
+  }
+
+  .notification-close {
+    background-color: $info !important;
+  }
+}
+
+.notification-warning {
+  background-color: $warning !important;
+  border-left: 12px solid $warning_dark !important;
+
+  .timer {
+    background-color: $warning_timer !important;
+  }
+
+  .timer-filler {
+    background-color: $warning_timer_filler !important;
+  }
+
+  .notification-close {
+    background-color: $warning !important;
+  }
+}
+
+.notification-awesome {
+  background-color: $awesome;
+  border-left: 12px solid $awesome_dark !important;
+
+  .timer {
+    background-color: $awesome_timer !important;
+  }
+
+  .timer-filler {
+    background-color: $awesome_timer_filler !important;
+  }
+
+  .notification-close {
+    background-color: $awesome !important;
+  }
+}

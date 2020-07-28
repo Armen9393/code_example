@@ -1,0 +1,84 @@
+@import "../../../assets/styles/variables.scss";
+
+.multi-select {
+  position: relative;
+  height: 45px;
+  .P-arrow{
+    padding-right: 12px;
+  }
+  .P-arrow i{
+    font-size: 12px;
+    
+  }
+}
+
+.P-field {
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  display: flex;
+  padding: 8px;
+  padding-left: 20px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.multi-select.open .P-field {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.label {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  color: $dark-gray;
+}
+
+.button {
+  align-items: center;
+  display: flex;
+  margin: -8px;
+  padding: 0 12px;
+  font-size: 20px;
+}
+
+.multi-select.open .button,
+.button:hover {
+  color: #00000017;
+}
+
+.options {
+  background: white;
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  left: 0;
+  position: absolute;
+  padding: 8px 0;
+  right: 0;
+  top: 100%;
+  z-index: 3;
+}
+
+.option {
+  cursor: pointer;
+}
+
+.option-active{
+  background: #00000017;
+}
+
+.option:hover {
+  background: #00000017;
+}
+
+.overlay {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}

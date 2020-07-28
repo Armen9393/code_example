@@ -1,0 +1,108 @@
+$default: #007bff;
+$default_dark: #0562c7;
+
+$success: #28a745;
+$success_dark: #1f8838;
+
+$danger: #dc3545;
+$danger_dark: #bd1120;
+
+$info: #17a2b8;
+$info_dark: #138b9e;
+
+$warning: #eab000;
+$warning_dark: #ce9c09;
+
+$awesome: #685dc3;
+$awesome_dark: #4c3fb1;
+
+$default_timer: #007bff;
+$default_timer_filler: #fff;
+
+$success_timer: #28a745;
+$success_timer_filler: #fff;
+
+$danger_timer: #dc3545;
+$danger_timer_filler: #fff;
+
+$info_timer: #17a2b8;
+$info_timer_filler: #fff;
+
+$warning_timer: #eab000;
+$warning_timer_filler: #fff;
+
+$awesome_timer: #685dc3;
+$awesome_timer_filler: #fff;
+
+
+// #region Colors
+$black        : #000000;
+$white        : #ffffff;
+$dark-gray    : #757575;
+$gray         : #A2A3AD;
+$light        : #F6F6F6;
+$light-gray   : #d2d2d2;
+
+$green        : #04A556;
+
+$light-green  : #0bbf6b;
+$red          : #FF0000;
+$red-dark     : #AF001E;
+$blue         : #0156A6;
+$el-blue      : #4FDDD9;
+$light-red    : #F60065;
+$yellow       : #e7ad00;
+$light-yellow : #fbc43a;
+$orange       : #F47421;
+$purple       : #EE00FF;
+$light-black        : #2b2525;
+$light-red          : #F11B5D;
+$pink               : #F0F1F6;
+$light-pink         : #F11B5D47;
+$dark-pink          : #fd3571;
+$facebook           : #3B5998;
+$linkedin           : #0073B0;
+$twitter            : #1DA1F2;
+$modal-light-blure  : #0000001a;
+$white-blure        : #ffffff3d;
+$app-color          : $blue;
+
+// #endregion
+
+// #region Alternative styles
+
+$gradient         : linear-gradient(to right, $blue, #5e98d4);
+$shadow-dark      : 0 0 10px rgba(0, 0, 0, .2);
+$error-shadow     : 0 0 15px transparentize($red, 0.6);
+$blue-shadow      : 0 0 40px rgba($blue, .2);
+$blue-dark-shadow : 0 0 40px rgba($blue, .4);
+
+// #endregion
+
+// #region App Components styles
+$body-color : $light;
+$main-color : $blue;
+
+$modal-z  : 1000;
+$header-z : 500;
+
+$left-side-width : 300px;
+$header-height   : 60px;
+$input-height    : 45px;
+$padding         : 8%;
+// #endregion
+
+//Shadows
+
+$shadow           : 0px 3px 10px 3px rgba($black, 0.1);
+$btn-shadow       : 0px 4px 20px rgba(0, 0, 0, 0.3);
+$error-shadow     : 0 0 15px transparentize($red, 0.5);
+$blue-shadow      : 0 0 40px rgba($blue, .2);
+$blue-dark-shadow : 0 0 40px rgba($blue, .4);
+$radius           : 3px;
+$btn-radius       : 26px;
+
+$notebook-width   : 1560px;
+$laptop-size : 1024px;
+$tab-size    : 768px;
+$phone-size  : 520px;
